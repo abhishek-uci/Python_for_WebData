@@ -15,9 +15,6 @@ print tags
 
 for tag in tags:
     print "Tag : ", tag
-    print "Attr : ",tag.get("class")
-    print "Attributes: ",tag.attrs
-    print "count: ", tag.contents[0]
     num = tag.contents[0]
     sum+=int(num)
 print sum
